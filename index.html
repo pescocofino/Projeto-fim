@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajuda - EcoViva</title>
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome para ícones -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <img class="logo" src="img/Logo.png">
+        <a class="navbar-brand" href="#">EcoViva</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Formas de prevenção</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Causas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://samuelvn007.github.io/projeto-natureza-NOVO/">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://nando244.github.io/Eco-Vida/">Inscrever-se</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Ajuda -->
+    <div class="container my-5">
+        <div class="section-title">
+            <h2>Ajuda - Como podemos ajudar?</h2>
+        </div>
+
+        <!-- Perguntas Frequentes (FAQ) -->
+        <div class="faq">
+            <h4 class="section-title">Perguntas Frequentes</h4>
+
+            <div class="faq-item">
+                <p class="faq-question"><i class="fas fa-question-circle"></i> O que é o aquecimento global?</p>
+                <p class="faq-answer">O aquecimento global é o aumento gradual da temperatura média da Terra,
+                    principalmente causado pela emissão excessiva de gases de efeito estufa devido às atividades
+                    humanas.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question"><i class="fas fa-question-circle"></i> Como posso contribuir para reduzir o
+                    impacto ambiental?</p>
+                <p class="faq-answer">Você pode reduzir o impacto ambiental ao adotar práticas como reciclagem,
+                    economizar água e energia, plantar árvores e optar por meios de transporte mais sustentáveis.</p>
+            </div>
+        </div>
+
+        <!-- Links úteis -->
+        <div class="links-uteis mt-5">
+            <h4 class="section-title">Links Úteis</h4>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://www.ipcc.ch" target="_blank">IPCC - Painel 
+                        Intergovernamental sobre Mudanças Climáticas</a></li> <img src="img/link.gif" alt="Icone animado" class="icone-animado">
+                <li class="list-group-item"><a href="https://www.greenpeace.org/brasil" target="_blank">Greenpeace 
+                        Brasil</a></li>  <img src="img/link.gif" alt="Icone animado" class="icone-animado">
+                <li class="list-group-item"><a href="https://www.worldwildlife.org" target="_blank">WWF - World Wildlife 
+                        Fund</a></li> <img src="img/link.gif" alt="Icone animado" class="icone-animado">
+            </ul>
+        </div>
+
+        <!-- Dicas para o Meio Ambiente -->
+        <div class="dicas mt-5">
+            <div class="dicas-icone">
+                <img src="img/ideia.gif" alt="Icone animado" class="icone-animado">
+                <h4 class="section-title">Dicas para um Planeta mais Sustentável</h4>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">Reduza o consumo de plásticos descartáveis.</li>
+                <li class="list-group-item">Opte por fontes de energia renovável sempre que possível.</li>
+                <li class="list-group-item">Compre produtos locais e orgânicos.</li>
+                <li class="list-group-item">Participe de campanhas de reflorestamento.</li>
+            </ul>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <div class="contact-form mt-5">
+            <h4 class="section-title">Entre em Contato</h4>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Seu Nome</label>
+                    <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Seu E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Sua Mensagem</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Escreva sua mensagem..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+            </form>
+
+            <!-- Mensagem de Sucesso -->
+            <div class="alert alert-success mt-4" role="alert">
+                Sua mensagem foi enviada com sucesso! Obrigado por entrar em contato.
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meio Ambiente. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Privacidade</a> | <a href="#">Termos de Uso</a> | <a href="#">Contatos</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- Script para o formulário de contato e FAQ -->
+    <script>
+        // Expandir/Contrair FAQ com animação suave
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            item.querySelector('.faq-question').addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+
+        // Validação do formulário e feedback de sucesso
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name && email && message) {
+                document.querySelector('.alert-success').style.display = 'block';
+                setTimeout(() => {
+                    document.querySelector('.alert-success').style.display = 'none';
+                }, 5000);
+                document.getElementById('contact-form').reset();
+            } else {
+                alert('Por favor, preencha todos os campos!');
+            }
+        });
+    </script>
+
+</body>
+
+</html>

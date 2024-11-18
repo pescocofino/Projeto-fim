@@ -1,0 +1,88 @@
+:root{
+    --night: #0d0a0bff;
+    --charcoal: #454955ff;
+    --magnolia: #f3eff5ff;
+    --apple-green: #72b01dff;
+    --office-green: #3f7d20ff;
+}
+
+body {
+    background-image: url('img/Amazon.jpg');
+    background-size: cover;
+    background-position: center; /* A imagem será centralizada */
+    background-attachment: fixed; /* A imagem de fundo ficará fixa ao rolar a página */
+    color: #333; /* Cor do texto */
+    font-family: 'Arial', sans-serif; /* Definindo uma fonte */
+}
+
+.logo {
+    image-rendering: auto;
+    height: 80px;
+    width: 80px;
+}
+
+
+/* Outros estilos para garantir que o conteúdo tenha uma boa aparência sobre o fundo */
+.container {
+    background-color: whitesmoke; /* Fundo branco semi-transparente para melhorar a legibilidade */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do cabeçalho para destacar sobre o fundo */
+.section-title {
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilo dos outros elementos (botões, etc) */
+.btn-submit {
+    background-color: var(--fern-green);
+    border: none;
+    border-radius: 25px;
+}
+.btn-submit:hover {
+    background-color: var(--fern-green);
+}
+
+.dicas-icone{
+    display: flex;
+}
+
+.icone-animado{
+    animation: rotate 2s infinite linear;
+    height: 50px;
+    width: 50px;
+}
+
+footer {
+    background-color: var(--fern-green);
+    color: rgb(9, 8, 8);
+    padding: 30px 0;
+    text-align: center;
+}
+.footer-links a {
+    color: rgb(21, 19, 19);
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.social-icons i {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.social-icons i:hover {
+    color: var(--moss-green)
+}
+
+.nav-item{
+    display: flex;
+    text-align: center;
+}
